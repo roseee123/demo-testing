@@ -1,0 +1,2 @@
+[1107/112913.401:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Users\F62N\AppData\Local\Temp\karma-41896920\Crashpad: 系統找不到指定的路徑。 (0x3)
+[1107/113456.191:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Users\F62N\AppData\Local\Temp\karma-60904091\Crashpad: 系統找不到指定的路徑。 (0x3)

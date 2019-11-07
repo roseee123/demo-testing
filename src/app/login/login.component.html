@@ -1,0 +1,21 @@
+<section *ngIf="!isAuth">
+  <form [formGroup]="form" (ngSubmit)="login()">
+    <label>userid:
+      <input matInput formControlName="userid" />
+    </label>
+    <br>
+    <label>password:
+      <input matInput type="password" formControlName="password" />
+    </label>
+    <br>
+    <button type="submit" id="submitBtn">login</button>
+  </form>
+</section>
+
+<section *ngIf="isAuth">
+  <h3>hello:
+    <span id="userId">{{this.form.value.userid}}</span>
+  </h3>
+  <br>
+  <button (click)="logout()" id="logoutBtn">logout</button>
+</section>
